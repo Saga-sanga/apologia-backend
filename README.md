@@ -1,3 +1,4 @@
-# Strapi application
+# Mizo Apologia Strapi application
 
-A quick description of your strapi application
+Hei hi Mizo Apologia backend application a ni e. Bible zawhna leh chhana webiste Mizo tawng ngat a siam a ni e.
+
