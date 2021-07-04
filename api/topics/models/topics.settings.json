@@ -22,8 +22,8 @@
       "required": true
     },
     "answers": {
-      "collection": "answers",
-      "via": "topic"
+      "via": "topic",
+      "collection": "answers"
     }
   }
 }
