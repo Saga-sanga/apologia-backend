@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "heroes",
+  "info": {
+    "name": "Hero"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subText": {
+      "type": "text",
+      "required": true
+    },
+    "heroImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
