@@ -46,6 +46,9 @@
     "author": {
       "via": "articles",
       "model": "writer"
+    },
+    "endNote": {
+      "type": "richtext"
     }
   }
 }
