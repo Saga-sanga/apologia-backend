@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimonies",
+  "info": {
+    "name": "Testimony",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title",
+      "required": true
+    },
+    "Content": {
+      "type": "richtext",
+      "required": true
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}
