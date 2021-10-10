@@ -32,6 +32,10 @@
     "email": {
       "type": "string",
       "required": false
+    },
+    "Title": {
+      "type": "string",
+      "required": true
     }
   }
 }
