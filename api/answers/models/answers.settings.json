@@ -38,6 +38,9 @@
     "topic": {
       "via": "answers",
       "model": "topics"
+    },
+    "endNote": {
+      "type": "richtext"
     }
   }
 }
