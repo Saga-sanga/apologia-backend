@@ -2,7 +2,7 @@
   "name": "apologia-backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Mizo Apologia Backend",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -29,7 +29,7 @@
     "@strapi/utils": "4.3.2"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Reckson Khiangte"
   },
   "strapi": {
     "uuid": "5d952a44-90db-4ecc-91d2-dff2d6a9b222",
