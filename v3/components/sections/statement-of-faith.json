@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_statement_of_faiths",
+  "info": {
+    "name": "StatementOfFaith",
+    "icon": "church"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
