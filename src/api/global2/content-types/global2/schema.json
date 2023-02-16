@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "global2s",
+  "info": {
+    "singularName": "global2",
+    "pluralName": "global2s",
+    "displayName": "Global2"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "favicon": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "siteName": {
+      "type": "string",
+      "required": true
+    },
+    "defaultSeo": {
+      "displayName": "defaultSeo",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.default-seo"
+    }
+  }
+}
