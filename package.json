@@ -10,6 +10,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@ckeditor/strapi-plugin-ckeditor": "0.0.7",
     "@strapi/admin": "4.6.1",
     "@strapi/plugin-content-manager": "4.6.1",
     "@strapi/plugin-content-type-builder": "4.6.1",
