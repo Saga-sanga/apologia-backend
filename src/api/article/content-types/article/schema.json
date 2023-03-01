@@ -5,7 +5,8 @@
     "singularName": "article",
     "pluralName": "articles",
     "displayName": "Article",
-    "name": "article"
+    "name": "article",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -39,20 +40,26 @@
     },
     "image": {
       "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
-      "multiple": false,
-      "required": true
+      ]
     },
-    "author": {
+    "authors": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::writer.writer",
       "inversedBy": "articles"
     },
     "endNote": {
       "type": "richtext"
+    },
+    "topics": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::topic.topic",
+      "mappedBy": "articles"
     }
   }
 }

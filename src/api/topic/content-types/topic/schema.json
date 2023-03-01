@@ -5,7 +5,8 @@
     "singularName": "topic",
     "pluralName": "topics",
     "displayName": "Topic",
-    "name": "topic"
+    "name": "topic",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -29,6 +30,12 @@
       "relation": "oneToMany",
       "target": "api::answer.answer",
       "mappedBy": "topic"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::article.article",
+      "inversedBy": "topics"
     }
   }
 }
